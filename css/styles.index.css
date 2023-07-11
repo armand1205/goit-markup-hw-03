@@ -1,0 +1,167 @@
+body {
+  background: #ffffff;
+  width: 1600px;
+  height: 2348px;
+  top: -3267px;
+  left: -3897px;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+button:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+a:hover {
+  background-color: green;
+}
+
+.first-button:focus {
+  color: blue;
+}
+
+.up-web-studio-logo {
+  width: 145px;
+  height: 31px;
+  top: 24px;
+  left: 215px;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.up-web-studio-logo:focus {
+  background-color: blue;
+}
+
+.up-studio {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 42px;
+  height: 16px;
+  top: 32px;
+  left: 453px;
+}
+.up-studio:focus {
+  background-color: pink;
+}
+.up-portofolio {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 58px;
+  height: 16px;
+  top: 32px;
+  left: 545px;
+}
+.up-portofolio:focus {
+  color: turquoise;
+}
+.up-contacts {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 59px;
+  height: 16px;
+  top: 32px;
+  left: 653px;
+}
+.up-contacts:focus {
+  color: crimson;
+}
+.up-email {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 135px;
+  height: 16px;
+  top: 32px;
+  left: 1097px;
+}
+.up-email:focus {
+  color: gold;
+}
+
+.up-phone-number {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.up-phone-number:focus {
+  background-color: aqua;
+}
+
+.down-web-studio-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 145px;
+  height: 31px;
+  top: 2157px;
+  left: 215px;
+}
+a.down-web-studio-logo:hover {
+  background-color: red;
+}
+
+.down-address {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 207px;
+  height: 16px;
+  top: 2216px;
+  left: 215px;
+}
+.down-address:focus {
+  color: red;
+}
+
+.down-email {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 231px;
+  height: 16px;
+  top: 2244px;
+  left: 215px;
+}
+.down-phone-number {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 231px;
+  height: 16px;
+  top: 2272px;
+  left: 215px;
+}
