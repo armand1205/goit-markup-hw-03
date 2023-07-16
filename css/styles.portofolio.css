@@ -1,3 +1,11 @@
+:root {
+  --link-color: #212121;
+  --text-active: #2196f3;
+  --phone-number-color: #757575;
+  --dark-bg-color: #2f303a;
+  --secondary-text-color: #757575;
+}
+
 body {
   background-color: #ffffff;
   width: 1600px;
@@ -31,7 +39,7 @@ a:hover {
 .up-studio {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -43,7 +51,7 @@ a:hover {
 .up-portofolio {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -55,7 +63,7 @@ a:hover {
 .up-contacts {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -71,7 +79,7 @@ a.up-email:hover {
 .up-phone-number {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -126,4 +134,91 @@ em.down-phone-number a:focus {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
+}
+
+.global-header {
+  background-color: #fff;
+  width: 1600px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.global-header .main-navigation ul {
+  display: flex;
+  width: 600px;
+  justify-content: space-evenly;
+}
+
+.global-main {
+  width: 1600px;
+  height: 1879px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.all-button {
+  display: flex;
+  width: 64px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.web-sites-button {
+  width: 64px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.apps-button {
+  width: 83px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.design-button {
+  width: 96px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.marketing-button {
+  width: 121px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.boxes-section ul {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: stretch;
+}
+
+.footer-container {
+  color: #fff;
+  background-color: var(--dark-bg-color);
+  width: 1600px;
+  height: 251px;
+  padding-top: 60px;
+}
+
+.down-web-studio-logo {
+  padding-left: 215px;
+}
+
+.info ul {
+  padding-left: 215px;
 }

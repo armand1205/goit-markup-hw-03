@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="css/styles.portofolio.css" />
   </head>
   <body class="body">
-    <header>
-      <a href="index.html">
-        <img
-          class="up-web-studio-logo"
-          src="images/logo.svg"
-          alt="WebStudio logo"
-          width="145"
-          height="31"
-        />
-      </a>
-
-      <nav>
+    <header class="global-header">
+      <div class="header-logo">
+        <a href="index.html">
+          <img
+            class="up-web-studio-logo"
+            src="images/logo.svg"
+            alt="WebStudio logo"
+            width="145"
+            height="31"
+          />
+        </a>
+      </div>
+      <nav class="main-navigation">
         <ul>
           <li><a class="up-studio" href="studio.html">Studio</a></li>
           <li>
@@ -28,23 +29,23 @@
           <li><a class="up-contacts" href="contacts.html">Contacts</a></li>
         </ul>
       </nav>
-      <a class="up-email" href="emailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="up-phone-number" href="tel:+12127724150">+1 212-772-4150</a>
+      <div>
+        <a class="up-email" href="emailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="up-phone-number" href="tel:+12127724150">+1 212-772-4150</a>
+      </div>
     </header>
-
-    <main>
-      <section>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web-sites</button></li>
-          <li><button type="button">Apps</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
-        </ul>
+    <br />
+    <main class="global-main">
+      <section class="button-section">
+        <button type="all-button">All</button>
+        <button type="web-sites-button">Web-sites</button>
+        <button type="apps-button">Apps</button>
+        <button type="design-button">Design</button>
+        <button type="marketing-button">Marketing</button>
       </section>
-      <section>
+      <section class="boxes-section">
         <ul>
           <li>
             <img
@@ -145,9 +146,9 @@
     </main>
 
     <footer>
-      <ul>
-        <li>
-          <a class="down-webstudio" href="index.html">
+      <div class="footer-container">
+        <div class="logo-container">
+          <a class="down-web-studio-logo" href="index.html">
             <img
               src="images/logo.svg"
               alt="WebStudio logo"
@@ -155,29 +156,27 @@
               height="31"
             />
           </a>
-        </li>
-      </ul>
-      <address>
-        <ul>
-          <li>
-            <p class="down-address"><b>695 Park Ave, NY 10065, USA</b></p>
-          </li>
-          <li>
-            <em
-              ><a class="down-email" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              ></em
-            >
-          </li>
-          <li>
-            <em
-              ><a class="down-phone-number" href="tel:+12127724150"
-                >+1 212-772-4150</a
-              ></em
-            >
-          </li>
-        </ul>
-      </address>
+        </div>
+        <div class="address-container">
+          <address class="info">
+            <ul>
+              <li>
+                <p class="down-address"><b>695 Park Ave, NY 10065, USA</b></p>
+              </li>
+              <li>
+                <a class="down-email" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="down-phone-number" href="tel:+12127724150"
+                  >+1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
