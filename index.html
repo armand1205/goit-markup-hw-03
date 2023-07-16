@@ -6,20 +6,29 @@
     <title>Studio</title>
     <hr />
     <link rel="stylesheet" href="css/styles.index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="body">
-    <header>
-      <a href="index.html">
-        <img
-          class="up-web-studio-logo"
-          src="images/logo.svg"
-          alt="WebStudio logo"
-          width="145"
-          height="31"
-        />
-      </a>
-
-      <nav>
+    <!--Header-->
+    <header class="global-header">
+      <div class="header-logo">
+        <a href="index.html">
+          <img
+            class="up-web-studio-logo"
+            src="images/logo.svg"
+            alt="WebStudio logo"
+            width="145"
+            height="31"
+          />
+        </a>
+      </div>
+      <nav class="main-navigation">
         <ul>
           <li><a class="up-studio" href="studio.html">Studio</a></li>
           <li>
@@ -28,131 +37,132 @@
           <li><a class="up-contacts" href="contacts.html">Contacts</a></li>
         </ul>
       </nav>
-      <a class="up-email" href="emailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="up-phone-number" href="tel:+12127724150">+1 212-772-4150</a>
+      <div>
+        <a class="up-email" href="emailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="up-phone-number" href="tel:+12127724150">+1 212-772-4150</a>
+      </div>
     </header>
+
+    <!--Main-->
     <main>
-      <section>
-        <hr />
-        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+      <section class="darker-section">
+        <h1 class="effective">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
         <button class="request-button" type="button">
           Request our service
         </button>
       </section>
-      <section class="atributs">
-        <div>
-          <h3>ATTENTION TO DETAILS</h3>
-          <p>
-            We go into all the details and processes of your business to develop
-            a customized solution.
-          </p>
-        </div>
-        <div>
-          <h3>PUNCTUALITY</h3>
-          <p>
-            With us, you can feel safe and secure. An important principle of the
-            company: respect your time and deadlines.
-          </p>
-        </div>
-        <div>
-          <h3>PLANNING</h3>
-          <p>
-            You will be able to observe and participate in every phase of
-            solution development and implementation.
-          </p>
-        </div>
-        <div>
-          <h3>MODERN TECHNOLOGIES</h3>
-          <p>
-            We use innovative tools to solve assigned tasks. It's time to
-            simplify work processes.
-          </p>
-        </div>
-      </section>
-      <section>
-        <h3>What we do</h3>
-
-        <img
-          src="images/img_wwd_1.jpg"
-          alt="A man writting on keyboard"
-          width="370"
-          height="294"
-        />
-        <img
-          src="images/img_wwd_2.jpg"
-          alt="A woman with a phone in hand"
-          width="370"
-          height="294"
-        />
-        <img
-          src="images/img_wwd_3.jpg"
-          alt="A human with a tablet in hand"
-          width="370"
-          height="294"
-        />
-      </section>
-      <section>
-        <hr />
-        <h3>Our Team</h3>
-
-        <ul>
-          <li>
+      <!--Atributs-->
+      <div class="white-section">
+        <section class="atributs">
+          <div class="attention">
+            <h3>ATTENTION TO DETAILS</h3>
+            <p>
+              We go into all the details and processes of your business to
+              develop a customized solution.
+            </p>
+          </div>
+          <div class="punctuality">
+            <h3>PUNCTUALITY</h3>
+            <p>
+              With us, you can feel safe and secure. An important principle of
+              the company: respect your time and deadlines.
+            </p>
+          </div>
+          <div class="planning">
+            <h3>PLANNING</h3>
+            <p>
+              You will be able to observe and participate in every phase of
+              solution development and implementation.
+            </p>
+          </div>
+          <div class="technologies">
+            <h3>MODERN TECHNOLOGIES</h3>
+            <p>
+              We use innovative tools to solve assigned tasks. It's time to
+              simplify work processes.
+            </p>
+          </div>
+        </section>
+        <section class="what-we-do-section">
+          <h2 class="light-section-title">What we do</h2>
+          <div class="images-section">
+            <img
+              src="images/img_wwd_1.jpg"
+              alt="A man writting on keyboard"
+              width="370"
+              height="294"
+            />
+            <img
+              src="images/img_wwd_2.jpg"
+              alt="A woman with a phone in hand"
+              width="370"
+              height="294"
+            />
+            <img
+              src="images/img_wwd_3.jpg"
+              alt="A human with a tablet in hand"
+              width="370"
+              height="294"
+            />
+          </div>
+        </section>
+      </div>
+      <!--Our Team-->
+      <section class="our-team-section">
+        <h2>Our Team</h2>
+        <div class="grey-section">
+          <div>
             <img
               src="images/employee_1.jpg"
               alt="A man with glasses smiling"
               width="270"
               height="260"
-            />
-          </li>
-          <li><b>Christopher Walker</b></li>
-          <li>Product Designer</li>
-        </ul>
+            /><br />
 
-        <ul>
-          <li>
+            <b>Christopher Walker</b><br />
+            <em>Product Designer</em>
+          </div>
+
+          <div>
             <img
               src="images/employee_2.jpg"
               alt="A woman smiling"
               width="270"
               height="260"
-            />
-          </li>
-          <li><b>Kylie Evans</b></li>
-          <li>Frontend Developer</li>
-        </ul>
+            /><br />
 
-        <ul>
-          <li>
+            <b>Kylie Evans</b><br />
+            <em>Frontend Developer</em>
+          </div>
+          <div>
             <img
               src="images/employee_3.jpg"
               alt="A man smiling"
               width="270"
               height="260"
-            />
-          </li>
-          <li><b>Ryan Harris</b></li>
-          <li>Marketing</li>
-        </ul>
+            /><br />
+            <b>Ryan Harris</b><br />
+            <em>Marketing</em>
+          </div>
 
-        <ul>
-          <li>
+          <div>
             <img
               src="images/employee_4.jpg"
               alt="A man with glasses smiling"
               width="270"
               height="260"
-            />
-          </li>
-          <li><b>Tyler Moore</b></li>
-          <li>UI Designer</li>
-        </ul>
+            /><br />
+            <b>Tyler Moore</b><br />
+            <em>UI Designer</em>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
-      <ul>
-        <li>
+      <div class="footer-container">
+        <div class="logo-container">
           <a class="down-web-studio-logo" href="index.html">
             <img
               src="images/logo.svg"
@@ -161,25 +171,27 @@
               height="31"
             />
           </a>
-        </li>
-      </ul>
-      <address class="info">
-        <ul>
-          <li>
-            <p class="down-address"><b>695 Park Ave, NY 10065, USA</b></p>
-          </li>
-          <li>
-            <a class="down-email" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="down-phone-number" href="tel:+12127724150"
-              >+1 212-772-4150</a
-            >
-          </li>
-        </ul>
-      </address>
+        </div>
+        <div class="address-container">
+          <address class="info">
+            <ul>
+              <li>
+                <p class="down-address"><b>695 Park Ave, NY 10065, USA</b></p>
+              </li>
+              <li>
+                <a class="down-email" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="down-phone-number" href="tel:+12127724150"
+                  >+1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

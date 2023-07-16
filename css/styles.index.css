@@ -1,3 +1,11 @@
+:root {
+  --link-color: #212121;
+  --text-active: #2196f3;
+  --phone-number-color: #757575;
+  --dark-bg-color: #2f303a;
+  --secondary-text-color: #757575;
+}
+
 body {
   background: #ffffff;
   width: 1600px;
@@ -6,6 +14,10 @@ body {
   left: -3897px;
   font-family: "Roboto", sans-serif;
   color: #212121;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 button:hover {
@@ -39,7 +51,7 @@ a:hover {
 .up-studio {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -54,7 +66,7 @@ a:hover {
 .up-portofolio {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -69,7 +81,7 @@ a:hover {
 .up-contacts {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -84,7 +96,7 @@ a:hover {
 .up-email {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -100,10 +112,11 @@ a:hover {
 .up-phone-number {
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
+  padding-left: 40px;
 }
 .up-phone-number:focus {
   background-color: aqua;
@@ -164,4 +177,166 @@ a.down-web-studio-logo:hover {
   height: 16px;
   top: 2272px;
   left: 215px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
+  font-weight: 900;
+}
+
+h3 {
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.atributs div p {
+  width: 270px;
+  height: 75px;
+}
+
+.global-header {
+  background-color: #fff;
+  width: 1600px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.global-header .main-navigation ul {
+  display: flex;
+  width: 600px;
+  justify-content: space-evenly;
+}
+
+.darker-section {
+  background-color: var(--dark-bg-color);
+  width: 1600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.effective {
+  display: flex;
+  width: 696px;
+  height: 120px;
+  justify-content: center;
+}
+
+.request-button {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-section {
+  background-color: #fff;
+  width: 1600px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.atributs {
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 2px;
+}
+
+.attention,
+.punctuality,
+.planning,
+.technologies {
+  width: 270px;
+  height: 85px;
+}
+
+.images-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 70px;
+}
+.images-section img {
+  margin: 10px;
+}
+
+.our-team-section {
+  background-color: rgba(245, 244, 250, 1);
+  width: 1600px;
+  height: 648px;
+}
+
+.grey-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.grey-section div {
+  background-color: #fff;
+  width: 270px;
+  height: 368px;
+  flex-shrink: 0;
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.footer-container {
+  color: #fff;
+  background-color: var(--dark-bg-color);
+  width: 1600px;
+  height: 251px;
+  padding-top: 60px;
+}
+
+.down-web-studio-logo {
+  padding-left: 215px;
+}
+
+.info ul {
+  padding-left: 215px;
 }
