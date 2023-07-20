@@ -198,13 +198,34 @@ em.down-phone-number a:focus {
   align-content: space-between;
 }
 
-.boxes-section ul {
+section.boxes-section {
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: baseline;
-  align-content: stretch;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.first-box-section {
+  display: flex;
+  flex: 33.33%;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.second-box-section {
+  display: flex;
+  flex: 33.33%;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.third-box-section {
+  display: flex;
+  flex: 33.33%;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .footer-container {
